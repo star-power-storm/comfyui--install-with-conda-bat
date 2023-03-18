@@ -22,17 +22,17 @@ To use this bat program:
 ---
 これはcomfyUIの拡張ツールです。batプログラムはcondaをベースにして手動でcomfyUIをインストールするために設計されています。
 
-このツールを使用する前に、comfyUIの完全なソースコードを「https://github.com/comfyanonymous/ComfyUI」からダウンロードし、任意の場所に展開する必要があります。さらに、CUDA 11.8を手動でインストールする必要があります。
+このツールを使用する前に、comfyUIの完全なソースコードを「https://github.com/comfyanonymous/ComfyUI」 からダウンロードし、任意の場所に展開する必要があります。さらに、CUDA 11.8を手動でインストールする必要があります。
 
 このbatプログラムを使用するには：
 
-まずAnacondaをインストールし、インストール中に「Add Anaconda3 to my PATH environment variable」を選択する必要があります。
-インストール後、このGitHubリポジトリからプログラムをダウンロードし、comfyUIフォルダに配置します。メインとなる3つのbatファイル（ComfyUI_BG_conda.bat、ComfyUI_BG_install.bat、1.install.bat）をmain.pyと同じフォルダに配置してください。
-Conda上の自動命名は「comfyUI」です。他のパッケージとの競合がないように注意してください。競合がある場合は、batファイルを適宜変更してください。
-インストールするには、1.install.batを実行してください。
-インストールの過程で、いくつかの質問が表示されます：
+1. まずAnacondaをインストールし、インストール中に「Add Anaconda3 to my PATH environment variable」を選択する必要があります。
+2. インストール後、このGitHubリポジトリからプログラムをダウンロードし、comfyUIフォルダに配置します。メインとなる3つのbatファイル（ComfyUI_BG_conda.bat、ComfyUI_BG_install.bat、1.install.bat）をmain.pyと同じフォルダに配置してください。
+3. Conda上の自動命名は「comfyUI」です。他のパッケージとの競合がないように注意してください。競合がある場合は、batファイルを適宜変更してください。
+4. インストールするには、1.install.batを実行してください。
+5. インストールの過程で、いくつかの質問が表示されます：
 （1）Conda環境を初めて作成する場合は、対応するベースパッケージをインストールするかどうかを尋ねられます。 「Y」を入力してください。
 （2）インストールの過程で、AMDまたはNVIDIAのグラフィックカードをお持ちの場合は、「A」を入力してください。NVIDIAの場合は、「N」を入力してください。CPUのみを使用する場合は、単に「enter」を押してください（推奨されません）。
 （3）最後に、GPUメモリが3GB以上あるかどうかを尋ねられます。グラフィックカードに応じて適切な情報を入力してください。
 （4）インストールが完了すると、「Done」と表示されます。
-インストール後、「2.run.bat」ファイルが自動的に生成されます。これを実行し、comfyUIの指示に従ってWebページを開いてください。
+6. インストール後、「2.run.bat」ファイルが自動的に生成されます。これを実行し、comfyUIの指示に従ってWebページを開いてください。
